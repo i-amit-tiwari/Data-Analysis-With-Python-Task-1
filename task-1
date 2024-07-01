@@ -1,0 +1,42 @@
+# Creating a list
+my_list = [1, 2, 3, 4, 5]
+
+# Adding elements
+my_list.append(6)
+print("After appending 6:", my_list)
+
+# Removing elements
+my_list.remove(3)
+print("After removing 3:", my_list)
+
+# Modifying elements
+my_list[0] = 10
+print("After modifying first element to 10:", my_list)
+
+
+# Creating a dictionary
+my_dict = {'a': 1, 'b': 2, 'c': 3}
+
+# Adding elements
+my_dict['d'] = 4
+print("After adding 'd':", my_dict)
+
+# Removing elements
+del my_dict['b']
+print("After removing 'b':", my_dict)
+
+# Modifying elements
+my_dict['a'] = 10
+print("After modifying 'a' to 10:", my_dict)
+
+
+# Creating a set
+my_set = {1, 2, 3, 4, 5}
+
+# Adding elements
+my_set.add(6)
+print("After adding 6:", my_set)
+
+# Removing elements
+my_set.remove(3)
+print("After removing 3:", my_set)
